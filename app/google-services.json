@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1050903594197",
+    "firebase_url": "https://click-app-46c28.firebaseio.com",
+    "project_id": "click-app-46c28",
+    "storage_bucket": "click-app-46c28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050903594197:android:b24926fd88daca53718e5c",
+        "android_client_info": {
+          "package_name": "com.jrtech.click"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050903594197-ieg2fvo4lbncfl9fq3ie9m5nninvi9ie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAid1dpwNhOyq19uzf61a0v00a8prJ4ccM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050903594197-ieg2fvo4lbncfl9fq3ie9m5nninvi9ie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

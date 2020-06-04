@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_activity_profile_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_person"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/colorPrimaryDark"/>
+    <TextView
+        android:id="@+id/profile_activity_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/profile_activity_profile_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/profile_activity_send_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:text="Send Message"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/buttons_layout"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/profile_activity_cancel_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:visibility="invisible"
+        android:padding="10dp"
+        android:text="Cancel Request"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/buttons_layout"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

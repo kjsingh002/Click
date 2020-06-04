@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".SettingsActivity">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/settings_appbar"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_marginTop="40dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:onClick="updateProfileImage"
+        android:src="@drawable/ic_person"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/settings_user_name"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/ic_person_24dp"
+        android:background="@drawable/edittext_border_layout"
+        android:layout_width="match_parent"
+        android:hint="User Name"
+        android:textAlignment="center"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/settings_user_status"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_assignment"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_border_layout"
+        android:layout_width="match_parent"
+        android:hint="Hey! I am online"
+        android:textAlignment="center"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/settings_update_button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttons_layout"
+        android:textColor="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:text="Update"
+        android:onClick="updateProfile"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_height="50dp"/>
+</LinearLayout>
